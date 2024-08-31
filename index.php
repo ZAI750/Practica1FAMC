@@ -32,7 +32,7 @@
                                             <td>
                                                 <div class="form-row">
                                                     <div class="form-group col-md-6">
-                                                        <lable for="txt_usuario">USUARIO:</lable>
+                                                        <label for="txt_usuario">USUARIO:</label>
                                                         <input type="text" class="form-control" name="txt_usuario" id="txt_usuario" maxlenght="15" aria-describedby="txt_user_help" required />
                                                         <small id="txt_user_help" class="form-text text_muted">El usuario es obligatorio</small>
                                                     </div>
@@ -46,7 +46,7 @@
                                         </tr>
                                         <tr>
                                             <td align="center">
-                                                <button type="button" class="btn btn-primary" name="btn_entrar" id="btn_entrar"></button>
+                                                <button type="button" class="btn btn-primary" name="btn_entrar" id="btn_entrar">Iniciar Sesión</button>
                                                 <div class="mensaje"></div>
                                             </td>
                                         </tr>
